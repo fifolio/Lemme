@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import Todo from "./Todo";
+import { Todo } from "./Todo";
 
 export default function App() {
-  useEffect(() => {  
+  useEffect(() => {
     document.title = "Lemme App";
   }, []);
 
